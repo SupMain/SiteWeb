@@ -42,7 +42,7 @@ body {
     font-size: 20px;
 }
 .index{
-  background-image: url(asset/model_bw.png);
+  background-image: url(model_bw.png);
   height: 100vh;
 }
 header {
