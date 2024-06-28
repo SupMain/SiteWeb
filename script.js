@@ -5,3 +5,15 @@ $('.portfolio-button').mousedown(function(){
 
     return false;
 });
+document.addEventListener("DOMContentLoaded", function () {
+    // Fonction pour détecter si l'utilisateur est sur un appareil mobile
+    function isMobileDevice() {
+        return /Mobi|Android/i.test(navigator.userAgent);
+    }
+
+    if (isMobileDevice()) {
+        // Affiche le message et masque le contenu principal
+        document.getElementById("mobile-message").style.display = "flex";
+        document.getElementById("main-content").style.display = "none";
+    }
+});
