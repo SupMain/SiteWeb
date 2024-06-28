@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isMobileDevice()) {
         // Affiche le message et masque le contenu principal
-        document.getElementById("main-content").classList.add("hidden");
         document.getElementById("mobile-message").style.display = "flex";
+        document.getElementById("main-content").style.display = "none";
+        document.getElementById("main-content").classList.add("hidden");
 
     }
 });
