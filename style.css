@@ -4,7 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.main-content {
+  display: block;
+}
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
