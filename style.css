@@ -169,6 +169,11 @@ header nav ul li .active {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   height: 50vh;
   width: 100vw;
   padding: 100px;
@@ -195,12 +200,7 @@ header nav ul li .active {
   background-color: #34353b;
   border-radius: 10px;
 }
-.about h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #fbfbfb;
-  font-family: "Libre Baskerville", serif;
-}
+
 
 .about .description {
   display: flex;
@@ -230,7 +230,7 @@ header nav ul li .active {
   padding: 50px 100px;
 }
 
-.skills h1 {
+h1 {
   font-size: 56px;
   font-weight: 700;
   color: #fbfbfb;
